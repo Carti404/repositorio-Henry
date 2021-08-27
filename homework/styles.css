@@ -1,0 +1,27 @@
+body{
+	background-image: url("fondos.jpg");
+    background-position: center;
+    height: 300px;
+  display: -webkit-flex;
+    display: flex;
+}
+#thirDiv{
+	width: 500px;
+	height: 600px;
+  border: solid blue 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#spanId{
+	font-size: 18px;
+	margin: 50px;
+	width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divClass{
+	width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
