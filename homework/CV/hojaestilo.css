@@ -1,0 +1,49 @@
+body{
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(#f69d3c, #3f87a6);	
+	display: flex;
+	flex-direction: column;
+}
+.descripcion{
+	color: black;
+	background-color: slateblue;
+	width: 400px;
+	border-style: dashed double dotted;
+	border-color: black;
+	border-radius: 5% 30%;
+	justify-content: space-around;
+}
+.educacion{
+	margin: 20px;
+	padding: 50ox;
+	width: 300px;
+}
+#experiencias{
+	background-color: seagreen;
+	border-style: dashed double dotted;
+	border-radius: 0% 20%;
+	border-color: black;
+	width: 400px;
+}
+#spanid{
+	width: 400px;
+	padding: auto;
+}
+.foto{
+	width: fit-content;
+	height: fit-content;
+	padding: auto;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+#hobbie{
+	border-style: solid double;
+	border-width: 4px;
+	border-color: #ccab82;
+	background-color: #6c8d8c;
+	border-radius: 20% 10% 20% 10%;
+	width: 300px;
+	padding: 5px;
+}
