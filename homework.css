@@ -1,0 +1,91 @@
+/*
+LecciÃƒÆ’Ã‚Â³n 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estÃƒÆ’Ã‚Â¡s tocando cualquier otro
+archivo en cualquiera de estas carpetas, estÃƒÆ’Ã‚Â¡s en el lugar equivocado.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por vos: */
+#ejercicioUno {
+	display: block;
+	text-align: center;
+}
+
+
+/* Ejercicio 2: Posicionar el header */
+
+/* AcÃƒÆ’Ã‚Â¡ va tu cÃƒÆ’Ã‚Â³digo */
+
+#ejercicioDos{
+	display: none;
+	visibility: hidden;
+}
+
+/* Ejercicio 3: */
+
+/* AcÃƒÆ’Ã‚Â¡ va tu cÃƒÆ’Ã‚Â³digo */
+#ejercicioTres{
+	position: relative;
+	top: center;
+	bottom: -100;
+	left: 200px;
+	right: 100px;
+}
+
+
+/* Ejercicio 4: */
+
+/* AcÃƒÆ’Ã‚Â¡ va tu cÃƒÆ’Ã‚Â³digo */
+#ejercicioCuatro{
+	width: 100%;
+  font-size: 140%;
+  position: absolute;
+  top: 1vh;
+  left: 0;
+  transition: opacity .2s ease-in-out;
+  text-align: center;
+}
+
+
+/* Ejercicio 5: */
+
+/* AcÃƒÆ’Ã‚Â¡ va tu cÃƒÆ’Ã‚Â³digo */
+#ejercicioCinco{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse; 
+  padding: initial; 
+}
+
+
+/* Ejercicio 7. */
+#ejercicioSiete{
+	display:flex; 
+	background-color: lightcyan;
+	border: 2px solid black;
+	padding: 7px; 
+	flex-flow: row wrap; 
+	justify-content: space-around; 
+	width: max-content; 
+	margin: 0 auto; 
+	align-items: flex-end;
+}
+
+#elementoUno{
+    order: 2; 
+    background-color: lightsalmon; 
+}
+#elementoDos{
+ order: 3; 
+ background-color: lightgreen; 
+}
+#elementoTres{
+	order: 1; 
+	background-color: skyblue; 
+}
+#elementoCuatro{
+	order: 4; 
+	background-color: lightpink; 
+}
+ 
